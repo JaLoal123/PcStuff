@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Windows Clean Install and Configuration</title>
+    <link href="style.css" rel="stylesheet" type="text/css" media="all">
+</head>
+<body>
+    <p>Bevor wir Anfangen Windows Key Abziehen Treiber installieren und Windows Update laufen lassen dannach noch System Restore point machen</p>
+    <p>1) Einrastfunktion deaktivieren</p>
+    <p>2) Background Apps deaktivieren</p>
+    <p>3) https://github.com/windowtoolbox/powershell-windows-toolbox<br><img src="img/Bloat.png" height="250"></p>
+    <p>4) Telementery Deaktivieren <br><img src="img/reg.png" height="185"></p>
+    <p>Auf HKEY_LOCAL_MACHINE, Software, Policies, Microsoft, Windows, DataCollection <br><img src="img/Data.png" height="400"></p>
+    <p> Dann DWORD-WERT (32Bit) umbennen in AllowTelemetry <br><img src="img/Dword.png" height="400"></p>
+    <p>5) Datei Endungen Anzeigen lassen Win+E , Ansicht, Optionen, Ansich, Erweiterung von bekannten Dateitypen ausblenden aus</p>
+    <p>6) Windows Taste und Privacy alles deaktivieren</p>
+    <p>7) Windows Sandbox Aktivieren: setx /M MP_FORCE_USE_SANDBOX 1 in Powershell</p>
+    <p>8) https://ninite.com/discord-firefox-steam-winrar/</p>
+    <p>https://playvalorant.com/en-us/</p>
+    <p>https://www.epicgames.com/store/en-US/download</p>
+    <p>https://www.callofduty.com/de/warzone/download</p>
+    <p>rest ist auf steam</p>
+    <p>Windows Key in cmd: wmic path softwarelicensingservice get OA3xOriginalProductKey</p>
+</body>
+</html>
